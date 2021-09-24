@@ -34,8 +34,8 @@ def Encryption(val):
             a+=key[5]
         
         val1=val1+chr(a)
-    print(val1)
-    print(key)
+    print("Encrypted Message : ",val1)
+    print("Key for Decryption : ",key)
 
 def Decryption(val,key):
     a=0
